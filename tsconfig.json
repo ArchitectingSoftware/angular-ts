@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "outDir": "out"
+  },
+  "exclude":[
+    "dist",
+    "dev",
+    "lib",
+    "node_modules",
+    "webpack",
+    "out",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "version": "1.8.10"
+}
